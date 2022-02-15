@@ -22,7 +22,7 @@ print(f"""
 ░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝ {violeta} 
 
 {cyan} Creado Por Z3RO {cyan}
-{violeta} Version 2.0 {vioketa}
+{violeta} Version 2.0 {violeta}
 {verde} telegram : @z3roofc""")
 
 def seguidores():
@@ -34,21 +34,12 @@ else:
       print(f"""{cyan}[{cyan} {amarillo}+{amarillo}{cyan}]{cyan}{verde} El bot se esta programando tardara 20 dias{verde}""")
       
       
-      #reporte
       
-def reportes():
-    reporte = input("Coloca el usuario = ")
-    if not True:
-        print('usuario incorrecto')
-else:
-  for i in range(1000):
-      print(f"""{cyan}[{cyan}{amarillo}+{amarillo}{cyan}]{cyan}{verde} REPORTANDO CUENTA ...{verde}""")
-      
-     #fuerzabruta
+  
      
 def fuerzabruta():
       password = input("coloca el correo")
-       if not True:
+if not True:
            print("La contraseña tuene mas de 10 caracteres")
 else:
   if __name__ == '__main__':
@@ -60,27 +51,23 @@ else:
   
 def menu():
       print(""" - follow : da seguidores
-      - report : reporta una cuenta
       - fuerzagram : obtiene la cintraseña de la cuenta""")
       
      #eleccion
      
       
-      def eleccion():
+def eleccion():
     print(f"{verde}")
-    opc = input(f" OPCION :")
-    if opc == "followi":
+    opc = input(f"[followgram@root]>> ")
+    if opc == "follow":
         seguidores()
         eleccion()
     elif opc == "help":
         menu();
         eleccion()
-    elif opc == "report":
-        reportes()
-        eleccion()
     elif opc == "fuerzagram":
        fuerzabruta()
-        eleccion()
+       eleccion()
     else:
         print(f"""{rojo}
     ERROR 404 OPCIÓN INCORRECTA x_x 
@@ -89,7 +76,6 @@ def menu():
     
 # inicio de tool
 if __name__ == "__main__":
-    portada()
     eleccion()
       
       
